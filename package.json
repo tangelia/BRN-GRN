@@ -1,11 +1,21 @@
 {
   "name": "brngrn",
   "version": "1.0.0",
-  "description": "Natural Beauty Marketplace",
+  "description": "Natural Beauty Marketplace built with MERN stack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+"repository": {
+  "type": "git",
+  "url": "git+ssh://git@github.com/tangelia/BRN-GRN.git"
+},
+"keywords": [
+  "MongoDb",
+  "Express",
+  "React",
+  "Node.js"
+],
   "author": "Tangelia Broom",
   "license": "ISC",
   "dependencies": {
