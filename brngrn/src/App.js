@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
+import {Switch, Route, Link} from 'react-router-dom'
+// CSS
 import './App.css';
 
 function App() {
