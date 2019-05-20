@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import {Switch, Route, Link} from 'react-router-dom'
 // CSS
 import './App.css';
+//Components
+import Navbar from './components/container/Navbar/Navbar'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
-  );
-}
 
-export default App;
+class App extends Component {
+    render() {
+      return (
+        <React.Fragment>        
+          <Navbar></Navbar>
+        </React.Fragment>
+      );
+    }
+  }
+  
+  export default App;
