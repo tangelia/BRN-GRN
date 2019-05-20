@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import styled from 'styled-components'
-import {ButtonContainer} from './Button'
+import {ButtonContainer} from './components/container/Button'
 
 import logo from '../img/logo.svg'
 
