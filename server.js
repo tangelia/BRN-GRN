@@ -11,6 +11,16 @@ app.get('/', (req, res) => {
   res.send("Hello World")
 })
 
+// // server.js
+
+//   app.use(express.static(`${__dirname}/brngrn/build`))
+
+//   //below your api routes
+//   app.get('/*', (req, res) => {
+//     res.sendFile(`${__dirname}/brngrn/build/index.html`)
+//   })
+
+
 const PORT = process.env.PORT || 3001
 
 app.listen(PORT, () => {
