@@ -43,8 +43,8 @@ Wireframe:
 
 
 
-ERD:
-<img src="/public/images/Blank ERD.png" alt="Entity Relationship Diagram"/>
+Link to Project Board:
+[Project Board](https://github.com/tangelia/BRN-GRN/projects/1)
 
 
 ## <a name="design"></a>Design
