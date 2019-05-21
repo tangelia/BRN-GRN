@@ -2,7 +2,9 @@ import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import {ButtonContainer} from './Button'
 import {ProductConsumer} from '../Context'
+import image from '../img/product1.jpg'
 
+import {storeProducts} from '../data.js'
 export default class Details extends Component{
 
   render(){

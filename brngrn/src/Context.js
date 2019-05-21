@@ -49,7 +49,7 @@ class ProductProvider extends Component{
   }
   
   handleDetail = (id) =>{
-    console.log('hello from detail')
+    // console.log('hello from detail')
     const product = this.getItem(id)
     this.setState(()=>{
       return {detailProduct: product}
@@ -57,9 +57,8 @@ class ProductProvider extends Component{
   }
   
   addToCart = (id) =>{
-    console.log(`hello from add to cart.id ${id}`)
+    // console.log(`hello from add to cart.id ${id}`)
     const tempProducts = [...this.state.products]
-    //nos devuelve el index del objeto en el array, asi no se cambia l ui
     const index = tempProducts.indexOf(this.getItem(id))
     const product = tempProducts[index]
     product.inCart = true

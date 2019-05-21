@@ -4,7 +4,7 @@ export const storeProducts = [
     {
       id: 1,
       title: "Sweet Vanilla Whipped Body Butter",
-      img: "brngrn/src/img/product1.jpg",
+      img: "/img/product1.jpg",
       price: 20,
       company: "URBAN SERENITE",
       info:
@@ -16,7 +16,7 @@ export const storeProducts = [
     {
       id: 2,
       title: "African Black Soap Body Wash with Purifying Charcoal and Colloidal Oatmeal",
-      img: "brngrn/src/img/product2.jpg",
+      img: "/img/product2.jpg",
       price: 16,
       company: "SHEA RADIANCE",
       info:
@@ -28,7 +28,7 @@ export const storeProducts = [
     {
       id: 3,
       title: "Floral Rejuvenation Face Kit",
-      img: "brngrn/src/img/product3.jpg",
+      img: "/img/product3.jpg",
       price: 75,
       company: "CHLOE & CHAD",
       info:
@@ -40,7 +40,7 @@ export const storeProducts = [
     {
       id: 4,
       title: "3-Piece Plant Based Face Kit",
-      img: "brngrn/src/img/product4.jpg",
+      img: "/img/product4.jpg",
       price: 65,
       company: "JACQ'S ORGANICS",
       info:
@@ -52,7 +52,7 @@ export const storeProducts = [
     {
       id: 5,
       title: "FLOURISH Totally Nourishing Hair Butter",
-      img: "brngrn/src/img/product5.jpg",
+      img: "/img/product5.jpg",
       price: 40,
       company: "AFRO HAIR & SKIN CO.",
       info:
@@ -64,7 +64,7 @@ export const storeProducts = [
     {
       id: 6,
       title: "BLOOM Omega Healthy Hair Oil",
-      img: "brngrn/src/img/product6.jpg",
+      img: "/img/product6.jpg",
       price: 34,
       company: "AFRO HAIR & SKIN CO.",
       info:
@@ -76,7 +76,7 @@ export const storeProducts = [
     {
       id: 7,
       title: "Twist and Braid Out Style Kit",
-      img: "brngrn/src/img/product7.jpg",
+      img: "/img/product7.jpg",
       price: 7,
       company: "ALODIA HAIR CARE",
       info:
@@ -88,7 +88,7 @@ export const storeProducts = [
     {
       id: 8,
       title: "Deep Detox Bath Soak",
-      img: "brngrn/src/img/product8.jpg",
+      img: "/img/product8.jpg",
       price: 23,
       company: "GOODNIGHT DARLING",
       info:
@@ -102,7 +102,7 @@ export const storeProducts = [
   export const detailProduct = {
     id: 1,
     title: "Sweet Vanilla Whipped Body Butter",
-    img: "brngrn/src/img/product1.jpg",
+    img: "/img/product1.jpg",
     price: 20,
     company: "URBAN SERENITE",
     info:
