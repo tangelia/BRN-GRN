@@ -3,7 +3,7 @@ import {Switch, Route, Link} from 'react-router-dom'
 // CSS
 import './App.css';
 //Components
-import Navbar from './components/container/Navbar/Navbar.js'
+import Navbar from './components/Navbar'
 // import ProductList from './components/ProductList'
 // import Details from './components/Details'
 // import Cart from './components/Cart'

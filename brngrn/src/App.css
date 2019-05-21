@@ -1,11 +1,11 @@
 body{
-  font-family: 'Oswald' , sans-serif !important;  
+  font-family: 'Montserrat' , sans-serif !important;  
   background:#f3f3f3; /*var(--mainWhite)!important;*/
   color: #232528 !important;/*var(--mainDark)!important;*/
 }
 
 .text-title{
-  font-family: 'Lato' , sans-serif !important;  
+  font-family: 'Raleway' , sans-serif !important;  
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
