@@ -1,7 +1,7 @@
 # BRN+GRN
 
 #### A MERN web application built as third project.
-<img src="" alt="Glow Up Mainpage Screenshot"/>
+<img src="" alt="BRN+GRN Mainpage Screenshot"/>
 
 ## Description
 BRN+GRN: a natural beauty marketplace that caters the needs of women of color.
