@@ -12,9 +12,7 @@ ReactDOM.render(
     <Router>
       <App />
     </Router>
-  </ProductProvider>
-    
-  ,
+  </ProductProvider> ,
   document.getElementById('root')
 );
 
