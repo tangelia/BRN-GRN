@@ -3,13 +3,10 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import {ButtonContainer} from './Button'
 
-// import logo from '../img/logo.svg'
+import logo from '../img/logo.svg'
 
 export default class Navbar extends Component{
   
-  constructor(){
-    super()
-  }
   
   render(){
     return(
@@ -18,7 +15,7 @@ export default class Navbar extends Component{
             Creative Commons (Attribution 3.0 Unported);
         https://www.iconfinder.com/Makoto_msk */} 
         <Link to='/'>
-          {/* <img src={logo} alt='store' className='navbar-brand'/> */}
+          <img src={logo} alt='store' className='navbar-brand'/>
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>

@@ -1,13 +1,10 @@
-/* 
-https://www.iconfinder.com/icons/1243689/call_phone_icon
-Creative Commons (Attribution 3.0 Unported);
-https://www.iconfinder.com/Makoto_msk */
+
 
 export const storeProducts = [
     {
       id: 1,
       title: "Sweet Vanilla Whipped Body Butter",
-      img: "img/sweet-vanilla-whipped-body-butter-all-natural-apolo-black-and-green-grn-owned-beauty-brands-urban-serenite-blk_618_300x.jpg",
+      img: "brngrn/src/img/product1.jpg",
       price: 20,
       company: "URBAN SERENITE",
       info:
@@ -19,7 +16,7 @@ export const storeProducts = [
     {
       id: 2,
       title: "African Black Soap Body Wash with Purifying Charcoal and Colloidal Oatmeal",
-      img: "img/african-black-soap-body-wash-with-purifying-charcoal-and-colloidal-oatmeal-all-natural-green-grn-owned-bath-shea-radiance-blk_283_300x.jpg",
+      img: "brngrn/src/img/product2.jpg",
       price: 16,
       company: "SHEA RADIANCE",
       info:
@@ -31,7 +28,7 @@ export const storeProducts = [
     {
       id: 3,
       title: "Floral Rejuvenation Face Kit",
-      img: "img/floral-rejuvenation-skincare-bundle-all-natural-black-and-green-grn-owned-beauty-brands-washington-dc-face-system-chloe-chad-blk_871_300x.jpg",
+      img: "brngrn/src/img/product3.jpg",
       price: 75,
       company: "CHLOE & CHAD",
       info:
@@ -43,7 +40,7 @@ export const storeProducts = [
     {
       id: 4,
       title: "3-Piece Plant Based Face Kit",
-      img: "img/3-piece-plant-based-face-kit-all-natural-apolo-black-and-green-grn-owned-system-jacqs-organics-blk_510_300x300.jpg",
+      img: "brngrn/src/img/product4.jpg",
       price: 65,
       company: "JACQ'S ORGANICS",
       info:
@@ -54,48 +51,48 @@ export const storeProducts = [
     },
     {
       id: 5,
-      title: "HTC Desire 626s",
-      img: "img/product-5.png",
-      price: 24,
-      company: "htc",
+      title: "FLOURISH Totally Nourishing Hair Butter",
+      img: "brngrn/src/img/product5.jpg",
+      price: 40,
+      company: "AFRO HAIR & SKIN CO.",
       info:
-        "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+        "This nourishing, “waterless” hair butter from The Afro Hair & Co. is specifically created to bring mega moisture to hair textures that need it most. Flourish is a deeply restorative hair butter made specially to soothe dry and damaged hair by absorbing deeply into the hair shaft leaving it stronger and moisturized. Fortify and Soften. Made with a blend of organic walnut butter and locally-sourced Camelina seed, Flourish feels light on hair and never greasy or heavy. The plant-rich butter melts quickly into the hair shaft to deeply nourish strands. Tip: Apply to damp hair—a little of this product goes a long way!",
       inCart: false,
       count: 0,
       total: 0
     },
     {
       id: 6,
-      title: "Vintage Iphone",
-      img: "img/product-6.png",
-      price: 17,
-      company: "apple",
+      title: "BLOOM Omega Healthy Hair Oil",
+      img: "brngrn/src/img/product6.jpg",
+      price: 34,
+      company: "AFRO HAIR & SKIN CO.",
       info:
-        "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+        "Hair can thrive when we just let it bloom. Made with a carefully-selected blend of nourishing plant oils and botanicals,  Bloom Omega Healthy Hair Oil brings intensive care to your hair with omegas and essential fatty acids for healthier strands and scalp. Seals in Moisture. Packed with nourishing omegas from plants, Bloom helps strengthen hair against breakage and snapping by sealing in moisture. Selected as a finalist for 'Best Hair Oil ' in the Shortlist Beauty Awards 2017, this nourishing oil doubles as an intensive hot oil treatment for your scalp and strands.",
       inCart: false,
       count: 0,
       total: 0
     },
     {
       id: 7,
-      title: "Iphone 7",
-      img: "img/product-7.png",
-      price: 30,
-      company: "apple",
+      title: "Twist and Braid Out Style Kit",
+      img: "brngrn/src/img/product7.jpg",
+      price: 7,
+      company: "ALODIA HAIR CARE",
       info:
-        "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+        "Make it easy for your curls, kinks, and waves to shine. The Alodia Twist and Braid Out Style Kit takes the guesswork out of having unbothered curls and coils. This hair kit is perfect for 4C or Type 4 coily hair types—your hair routine for healthier hair just got super simple. DIY Salon Ready. Everything you need it one kit—it’s the shortcut to your best hair days:",
       inCart: false,
       count: 0,
       total: 0
     },
     {
       id: 8,
-      title: "Smashed Iphone",
-      img: "img/product-8.png",
-      price: 2,
-      company: "apple",
+      title: "Deep Detox Bath Soak",
+      img: "brngrn/src/img/product8.jpg",
+      price: 23,
+      company: "GOODNIGHT DARLING",
       info:
-        "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+        "Escape the urban jungle With the Good Night Darling Detox Bath Soak. Rose petals, Himalayan pink and dead sea salts are hand blended with soothing eucalyptus and lavender essential oils to promote maximum relaxation. The result? A sensuous, powerful, detox bath that melts every muscle. Pretty with Pink Salt: As the Himalayan pink salt draws out toxins, the dead sea salt provides a double dose of detox. Calming lavender and refreshing eucalyptus transform a simple soak into a powerful 20-minute self-care ritual.",
       inCart: false,
       count: 0,
       total: 0
@@ -104,12 +101,12 @@ export const storeProducts = [
   
   export const detailProduct = {
     id: 1,
-    title: "Google Pixel - Black",
-    img: "img/product-1.png",
-    price: 10,
-    company: "google",
+    title: "Sweet Vanilla Whipped Body Butter",
+    img: "brngrn/src/img/product1.jpg",
+    price: 20,
+    company: "URBAN SERENITE",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Completely void of artificial ingredients, toxic preservatives, and heavy additives, our Sweet Vanilla Whipped Body Butter absorbs quickly to leave the skin hydrated and healthy without the extras. Unrefined shea, mango butter, and cocoa butter team up with babassu oil, vitamin E and an herbal infusion to deeply moisturize, while natural vanilla oil gives the cream a comfortingly aromatic finish. How To Use: For best results scoop a small amount, a little goes a long way. Apply on damp skin for increased absorption and retain moisture.",
     inCart: false,
     count: 0,
     total: 0
