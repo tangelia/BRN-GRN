@@ -12,16 +12,16 @@
   "engines": {
     "node": "10.13.0"
   },
-"repository": {
-  "type": "git",
-  "url": "git+ssh://git@github.com/tangelia/BRN-GRN.git"
-},
-"keywords": [
-  "MongoDb",
-  "Express",
-  "React",
-  "Node.js"
-],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tangelia/BRN-GRN.git"
+  },
+  "keywords": [
+    "MongoDb",
+    "Express",
+    "React",
+    "Node.js"
+  ],
   "author": "Tangelia Broom",
   "license": "ISC",
   "dependencies": {
@@ -29,6 +29,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.0",
     "mongoose": "^5.5.9",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0"
   }
 }
