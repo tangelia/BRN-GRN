@@ -3,10 +3,15 @@ const Schema = mongoose.Schema;
 
 
 const product = new Schema({
-    name: String,
-    description: String,
+    title: String,
+    img: String,
     price: Number,
-    picture: String
+    company: String,
+    info: String
     });
 
     module.exports = mongoose.model('Product', product);
+
+
+    
+    

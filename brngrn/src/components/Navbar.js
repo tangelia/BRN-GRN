@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import {ButtonContainer} from './Button'
 
-import logo from '../img/logo1.png'
+import logo from '../img/Logo1.png'
 
 export default class Navbar extends Component{
   
@@ -11,9 +11,7 @@ export default class Navbar extends Component{
   render(){
     return(
       <NavWrapper className='navbar bg-primary navbar-expand-sma navbar-dark px-sm-5'>
-        {/*https://www.iconfinder.com/icons/1243689/call_phone_icon
-            Creative Commons (Attribution 3.0 Unported);
-        https://www.iconfinder.com/Makoto_msk */} 
+  
         <Link to='/'>
           <img src={logo} alt='store' className='navbar-brand'/>
         </Link>
