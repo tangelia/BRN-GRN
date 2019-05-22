@@ -9,14 +9,14 @@ const app = express()
 app.use(logger('dev'))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(`${__dirname}/brngrn/build`))
 
 
-app.use('/')
-
+app.use('/api/v1', routes)
 
 app.get('/*', (req, res) => {
     res.sendFile(`${__dirname}/brngrn/build/index.html`)
-})
+  });
 
 const PORT = process.env.PORT || 3001
 
