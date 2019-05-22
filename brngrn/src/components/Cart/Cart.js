@@ -12,9 +12,7 @@ import {ProductConsumer} from '../../Context'
 
 export default class Cart extends Component{
 
-  constructor(){
-    super()
-  }
+
   
   render(){
     return(
