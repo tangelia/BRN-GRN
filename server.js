@@ -11,14 +11,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-app.get('/', (req, res) => {
-  res.send("Hello World")
+app.use('/')
+
+
+app.get('/*', (req, res) => {
+    res.sendFile(`${__dirname}/brngrn/build/index.html`)
 })
-
-
-// app.get('/*', (req, res) => {
-//     res.sendFile(`${__dirname}/brngrn/build/index.html`)
-// })
 
 const PORT = process.env.PORT || 3001
 
