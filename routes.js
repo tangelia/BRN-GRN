@@ -1,25 +1,25 @@
-//Controllers
-
-//Set admin
-const adminController = require('./controllers/admin_controller');
-//Set cloudinary
-const cloudinaryController = require('./controllers/cloudinary_controller');
-//Set user
-const userController = require('./controllers/user_controller');
-//Set products
-const productsController = require('./controllers/products_controller');
 
 
 const express = require('express');
 const router = express();
 
+//Controllers
+
+//Set admin
+const adminController = require('./controllers/admin-controller');
+//Set cloudinary
+const cloudinaryController = require('./controllers/cloudinary-controller');
+//Set user
+const userController = require('./controllers/user-controller');
+//Set products
+const productsController = require('./controllers/products-controller');
 
 
 setTimeout(() => {
 
 //   User Endpoint
 //   Cloudinary images upload
-  router.get('/api/upload', cloudinaryController.upload);
+//   router.get('/api/upload', cloudinaryController.upload);
   
   //Read the user's session.
   router.get('/api/user-data', userController.readUserData);

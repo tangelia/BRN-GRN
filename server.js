@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-//Middlewares
+// //Middlewares
 const bodyParser = require("body-parser");
 const session = require('express-session');
 const cors = require('cors');
@@ -10,21 +10,40 @@ const cors = require('cors');
   const express = require('express')
   const logger = require('morgan')
   const app = express()
-  const routes = require('./routes/index.js')
-  
-  app.use(logger('dev'))
-  app.use(express.urlencoded({ extended: true }));
-  app.use(express.json());
-  app.use(express.static(`${__dirname}/brngrn/build`))
-  
-  app.use('/api/v1', routes)
-  
-  app.get('/*', (req, res) => {
-      res.sendFile(`${__dirname}/brngrn/build/index.html`)
-  })
+  const routes = require('./routes.js')
   
 
-const PORT = process.env.PORT || 3001
+
+
+ app.use(logger('dev'))
+ 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());	
+
+
+ app.use('/', routes)	
+
+
+ // server.js	app.use('/', routes)
+
+
+   app.use(express.static(`${__dirname}/brngrn/build`))	
+
+ //   //below your api routes	
+  // app.get('/*', (req, res) => {	
+  //   res.sendFile(`${__dirname}/brngrn/build/index.html`)	
+  // })	
+
+
+ app.get('/*', (req, res) => {
+    res.sendFile(`${__dirname}/brngrn/build/index.html`)
+})
+
+
+PORT = process.env.PORT || 3001
+
+
+
 
 app.listen(PORT, () => {
   console.log('BRN + GRN is up and running on port ' + PORT)
