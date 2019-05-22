@@ -1,7 +1,7 @@
 # BRN+GRN
 
 #### A MERN web application built as third project.
-<img src="" alt="BRN+GRN Mainpage Screenshot"/>
+<img src="brngrn/src/img/Screen Shot 2019-05-21 at 11.43.19 PM.png" alt="BRN+GRN Mainpage Screenshot"/>
 
 ## Description
 BRN+GRN: a natural beauty marketplace that caters the needs of women of color.
@@ -34,14 +34,6 @@ Users can submit, edit and delete recipes.
 
 
 
-Wireframe:
-<img src="public/images/IMG_20190430_102138.jpg" alt="Wireframe"/>
-<img src="public/images/IMG_20190430_102149.jpg" alt="Wireframe"/>
-<img src="public/images/IMG_20190430_102155.jpg" alt="Wireframe"/>
-<img src="public/images/IMG_20190430_102158.jpg" alt="Wireframe"/>
-<img src="public/images/IMG_20190430_102202.jpg" alt="Wireframe"/>
-
-
 
 Link to Project Board:
 [Project Board](https://github.com/tangelia/BRN-GRN/projects/1)
@@ -54,9 +46,10 @@ Link to Project Board:
 ## <a name="nextsteps"></a>Project Next Steps
 * Admin dashboard
 * Vendor dashboard
-* .
-* .
-* . 
+* Stripe checkout
+* About page
+* Breadcrumb catergories
+* Reviews
 
 ## <a name="deployment"></a>Deployed Link
 [Heroku](https://glacial-ridge-49253.herokuapp.com/)
