@@ -23,12 +23,12 @@ const app = express();
 //Connect to MongoDB
 
 
-mongoose.connect(process.env.MONGODB_URI, (err) => {
-if(err) {
-console.log('Database Error', err);
-}
-console.log('Connected to database');
-});
+// mongoose.connect(process.env.MONGODB_URI, (err) => {
+// if(err) {
+// console.log('Database Error', err);
+// }
+// console.log('Connected to database');
+// });
 
 //Middleware 
 app.use(bodyParser.json());
@@ -79,17 +79,17 @@ app.get('/api/products/:id', productsController.readProduct);
 
 
 //Admin Endpoints
-//Get admin users.
-app.get('/api/users', adminController.getAdminUsers);
+// //Get admin users.
+// app.get('/api/users', adminController.getAdminUsers);
 
-//create product
-app.post('/api/products', adminController.createProduct);
+// //create product
+// app.post('/api/products', adminController.createProduct);
 
-//Update current product
-app.put('/api/products/:id', adminController.updateProduct);
+// //Update current product
+// app.put('/api/products/:id', adminController.updateProduct);
 
-//Delete product
-app.delete('/api/products/:id', adminController.deleteProduct);
+// //Delete product
+// app.delete('/api/products/:id', adminController.deleteProduct);
 }, 200);
 
 
