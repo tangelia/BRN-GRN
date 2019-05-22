@@ -62,12 +62,12 @@ setTimeout(() => {
 // //Remove a item from the cart.
 // app.delete('/api/user-data/cart/:id',userController.removeFromCart);
 
-//User login
-app.get('/auth/callback', userController.login);
-// app.post('/api/login', userController.login)
+// //User login
+// app.get('/auth/callback', userController.login);
+// // app.post('/api/login', userController.login)
 
-//User logout
-app.post('/api/logout', userController.logout);
+// //User logout
+// app.post('/api/logout', userController.logout);
 
 
 //Products Endpoints
