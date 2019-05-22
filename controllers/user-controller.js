@@ -14,7 +14,7 @@ module.exports = {
     },
     
     login(req, res) {
-        //auth0 post request to retrive accessTokenResposne. 
+        //auth post request to retrive accessTokenResposne. 
         return axios.post(`https://${process.env.REACT_APP_AUTH_DOMAIN}/oauth/token`, {
             client_id: process.env.REACT_APP_AUTH_CLIENT_ID,
             client_secret: process.env.REACT_APP_AUTH_CLIENT_SECRET,
