@@ -21,7 +21,7 @@ const express = require('express');
 const app = express();
 
 //Connect to MongoDB
-const PORT = 5000;
+
 
 mongoose.connect(process.env.MONGODB_URI, (err) => {
 if(err) {
