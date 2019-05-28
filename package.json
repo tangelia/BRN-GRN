@@ -2,7 +2,7 @@
   "name": "brngrn",
   "version": "1.0.0",
   "description": "Natural Beauty Marketplace built with MERN stack",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "dev": "concurrently \"nodemon server.js\" \"cd brngrn && npm start\"",
