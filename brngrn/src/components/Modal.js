@@ -69,5 +69,5 @@ const ModalContainer = styled.div`
   #modal{
     background: #f3f3f3;/*var(--mainWhite);*/
   }
-
+  
 `

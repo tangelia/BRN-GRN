@@ -13,7 +13,7 @@
     "react-paypal-express-checkout": "^1.0.5",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.0.1",
     "reactbulma": "^3.0.4",
     "styled-components": "^4.2.0"
   },

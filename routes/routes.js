@@ -18,24 +18,31 @@ const productsController = require('./controllers/products-controller');
 setTimeout(() => {
 
 //   User Endpoint
+
+router.get("/users/", userController.index);
+router.post("/users/", userController.create);
+router.get("/users/:uid", userController.show);
+router.put("/users/:uid", userController.update);
+router.delete("/users/:uid", userController.delete);
+
 //   Cloudinary images upload
 //   router.get('/api/upload', cloudinaryController.upload);
   
-  //Read the user's session.
-  router.get('/api/user-data', userController.readUserData);
+  // //Read the user's session.
+  // router.get('/api/user-data', userController.readUserData);
   
-  //Add a item to cart
-  router.post('/api/user-data/cart', userController.addToCart);
+  // //Add a item to cart
+  // router.post('/api/user-data/cart', userController.addToCart);
   
-  //Remove a item from the cart.
-  router.delete('/api/user-data/cart/:id',userController.removeFromCart);
+  // //Remove a item from the cart.
+  // router.delete('/api/user-data/cart/:id',userController.removeFromCart);
   
-  //User login
-  router.get('/auth/callback', userController.login);
-  // router.post('/api/login', userController.login)
+  // //User login
+  // router.get('/auth/callback', userController.login);
+  // // router.post('/api/login', userController.login)
   
-  //User logout
-  router.post('/api/logout', userController.logout);
+  // //User logout
+  // router.post('/api/logout', userController.logout);
   
   
   //Products Endpoints
