@@ -10,7 +10,7 @@ const cors = require('cors');
   const express = require('express')
   const logger = require('morgan')
   const app = express()
-  const routes = require('./routes.js')
+  const routes = require('./routes/routes')
   
 
 
@@ -24,15 +24,9 @@ app.use(express.json());
  app.use('/api/v1', routes)	
 
 
- // server.js	app.use('/', routes)
-
 
    app.use(express.static(`${__dirname}/brngrn/build`))	
 
- //   //below your api routes	
-  // app.get('/*', (req, res) => {	
-  //   res.sendFile(`${__dirname}/brngrn/build/index.html`)	
-  // })	
 
 
  app.get('/*', (req, res) => {

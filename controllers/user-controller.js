@@ -2,7 +2,7 @@ const User = require('../models/users');
 // const axios = require('axios');
 
 
-const UserController = {
+const userController = {
     index: async (req, res) => {
         try {
             const users = await User.find({})

@@ -6,13 +6,13 @@ const router = express();
 //Controllers
 
 //Set admin
-const adminController = require('./controllers/admin-controller');
+// const adminController = require('./controllers/admin-controller');
 //Set cloudinary
-const cloudinaryController = require('./controllers/cloudinary-controller');
+// const cloudinaryController = require('./controllers/cloudinary-controller');
 //Set user
-const userController = require('./controllers/user-controller');
+const userController = require('../controllers/user-controller');
 //Set products
-const productsController = require('./controllers/products-controller');
+const productsController = require('../controllers/products-controller');
 
 
 setTimeout(() => {
@@ -55,16 +55,16 @@ router.delete("/users/:uid", userController.delete);
   
 //   Admin Endpoints
   //Get admin users.
-  router.get('/api/users', adminController.getAdminUsers);
+  // router.get('/api/users', adminController.getAdminUsers);
   
-  //create product
-  router.post('/api/products', adminController.createProduct);
+  // //create product
+  // router.post('/api/products', adminController.createProduct);
   
-  //Update current product
-  router.put('/api/products/:id', adminController.updateProduct);
+  // //Update current product
+  // router.put('/api/products/:id', adminController.updateProduct);
   
-  //Delete product
-  router.delete('/api/products/:id', adminController.deleteProduct);
+  // //Delete product
+  // router.delete('/api/products/:id', adminController.deleteProduct);
   }, 200);
 
   module.exports = router
