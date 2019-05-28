@@ -22,6 +22,7 @@ class SingleUser extends Component {
   }
 
   deleteUser = () => {
+      console.log('dasdf');
       axios.delete(`/api/v1/${this.props.match.params.id}`).then(res => {
           this.setState({redirectToHome: true})
       })
@@ -40,7 +41,7 @@ class SingleUser extends Component {
   }
 
   updateUser = (e) => {
-      e.preventDefault()
+      e.preventDefault();
       axios
         .put(`/api/v1/${this.props.match.params.id}`, {
             name: this.state.user.name,

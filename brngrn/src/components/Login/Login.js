@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react'
 import {Switch, Route} from 'react-router-dom'
-import Users from './components/Users'
-import SingleUser from './components/SingleUser'
+import Users from '../Users'
+import SingleUser from '../SingleUser'
 
 export default class App extends Component {
   render () {

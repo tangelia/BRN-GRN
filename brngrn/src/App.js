@@ -10,7 +10,8 @@ import Details from './components/Details'
 import Cart from './components/Cart'
 import Default from './components/Default'
 import Modal from './components/Modal'
-
+import SingleUser from './components/SingleUser'
+import Users from './components/Users'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -25,7 +26,8 @@ class App extends Component {
           <Route exact path='/' component={ProductList}/>
           <Route path='/details' component={Details}/>
           <Route path='/cart' component={Cart}/>
-          <Route path='/login' component={Login}/>
+          <Route exact path="/users" component={Users}/>
+          <Route path="/users/:id" component={SingleUser}/>
           <Route component={Default}/>          
         </Switch> 
         <Modal/>
